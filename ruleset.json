@@ -1,0 +1,61 @@
+[
+  {
+    "Status": 0,
+    "Path": "speed.exe",
+    "AdditionalPaths": null,
+    "ActionMessage": "Couldn\u0027t find the game executable! Are you sure you\u0027re running this launcher from the right directory?"
+  },
+  {
+    "Status": 0,
+    "Path": "GLOBAL/GLOBALB.lzc",
+    "AdditionalPaths": null,
+    "ActionMessage": "Couldn\u0027t find the global resource bundle! Your MW installation is most likely corrupt. Consider reinstalling the game and MWO."
+  },
+  {
+    "Status": 0,
+    "Path": "TRACKS/STREAML2RA.BUN",
+    "AdditionalPaths": null,
+    "ActionMessage": "Couldn\u0027t find the game world files! Your MW installation is either corrupt or you\u0027re trying to install MWO onto a pre-V3 installation package [that is, without the actual game]. Please reinstall the game or put the launcher in your actual game folder."
+  },
+  {
+    "Status": 1,
+    "Path": "d3d9.dll",
+    "AdditionalPaths": null,
+    "ActionMessage": "There seems to be a foreign d3d9.dll present in the game folder. We don\u0027t guarantee MWO will work properly with this. Consider deleting d3d9.dll."
+  },
+  {
+    "Status": 3,
+    "Path": "scripts/MirrorHook.asi",
+    "AdditionalPaths": [
+      "./MirrorHook.asi"
+    ],
+    "ActionMessage": "MirrorHook does NOT work with the new MWO update, as the hook mechanism has been changed. Please delete MirrorHook before proceeding."
+  },
+  {
+    "Status": 3,
+    "Path": "scripts/VerbleHack.asi",
+    "AdditionalPaths": [
+      "./VerbleHack.asi",
+      "./MWHook.asi",
+      "./mods/VerbleHackNFSMW5.dll",
+      "./scripts/MWHook.asi"
+    ],
+    "ActionMessage": "VerbleHack is a cheat. Whether you left it there by accident or installed it on purpose, please delete VerbleHack before proceeding."
+  },
+  {
+    "Status": 3,
+    "Path": "scripts/RockportEd.asi",
+    "AdditionalPaths": [
+      "./RockportEd.asi"
+    ],
+    "ActionMessage": "RockportEd uses MirrorHook and thus does not support MWO. Please delete RockportEd before proceeding."
+  },
+  {
+    "Status": 3,
+    "Path": "scripts/NFSMW2005_widescreen_fix.asi",
+    "AdditionalPaths": [
+      "./NFSMW2005_widescreen_fix.asi"
+    ],
+    "ActionMessage": "You are using a very old version of the NFSMW Widescreen Fix. It probably came with your MW repack. MWO does NOT support this version and it was proven to cause tons of weird crashes and other issues, especially when installed alongside other mods. We advise you to download ThirteenAG's Widescreen Fix instead. Please delete the old Widescreen Fix before processing."
+  }
+]
